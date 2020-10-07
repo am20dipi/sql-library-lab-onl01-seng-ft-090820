@@ -3,7 +3,6 @@ def select_books_titles_and_years_in_first_series_order_by_year
   FROM books
   INNER JOIN series
   ON books.id = books.series_id
-  WHERE books.id = 1
   ORDER BY books.year ASC;"
 end
 
